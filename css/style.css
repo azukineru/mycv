@@ -1,0 +1,182 @@
+@CHARSET "ISO-8859-1";
+/* Reset CSS
+ * --------------------------------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+a{
+	text-decoration:none;
+}
+table {
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-weight: bold;
+}
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+caption,th {
+    text-align: left;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:black;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border: 0;
+}
+
+/* Custom CSS
+ * --------------------------------------- */
+body{
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+h1{
+	font-size: 6em;
+}
+h2{
+	font-size: 4em;
+}
+h3{
+	font-size: 2em;
+}
+
+/* Wrapper */
+.wrapper{
+	position: absolute;
+	top: 160px;
+	left: 20px;
+	width: 96.8%;
+	height: 65%;
+	overflow-y: hidden;
+	background-color: white;
+	z-index: 100px;
+}
+
+/* Logo */
+.logo{
+	position: fixed;
+	top: 0;
+	left: 20px;
+	width: 30%;
+	height: 160px;
+	z-index: 50;
+	background-image: url("../img/logo.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: 25%;
+}
+
+/* Menu
+ * --------------------------------------- */
+#menu span{
+	width: 50%;
+	display: table;
+	margin: 0 auto;
+	margin-top: 40%;
+	text-align: center;
+}
+#menu li {
+	display:inline-block;
+	margin-left: -2px;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+	height: 100%;
+	width: 150px;
+}
+#menu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#menu a{
+	text-decoration:none;
+	color: #000;
+}
+#menu li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+#menu li.active {
+	color: #fff;
+}
+#menu{
+	position:fixed;
+	top:60px;
+	right: 20px;
+	height: 100px;
+	z-index: 70;
+	width: 605px;
+	margin:0;
+}
+
+/* Photo */
+.photo{
+	position: relative;
+	float: left;
+	width: 10%;
+	height: 48.2%;
+	background-color: black;
+	background-image: url("../img/foto.jpg");
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/* Column div */
+.col-md-8{
+	position: relative;
+	float: left;
+	width: 60%;
+	height: 200px;
+}
+.col-md-8 h1,h2,h3{
+	text-align: left;
+}
+
+/* Row div */
+.row-md-6{
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 100%;
+	background-color: #f2f2f2;
+	padding: 0;
+}
+.row-md-6 , .inner{
+	display: block;
+}
+
+/* Padding */
+.inner{
+	padding: 20px;
+}
+
+/* Footer */
+.footer{
+	position: fixed;
+	top: 90%;
+	left: 20px;
+	width: 96.8%;
+	height: 50px;
+	z-index: 50;
+	background-color: black;
+}
