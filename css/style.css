@@ -190,14 +190,19 @@ h4{
 	width: 55.8%;
 	height: 40%;
 }
-.col-px-8 h1,h2,h3{
-	text-align: left;
-}
 .col-px-10{
 	position: relative;
 	float: left;
 	width: 65.8%;
 	height: 52.5%;
+}
+/* Column div option */
+.col-px-8 h1,h2,h3{
+	text-align: left;
+}
+.col-md-1 img{
+	max-width: 100%;
+	max-height: 100%;
 }
 
 /* Row div */
@@ -218,8 +223,7 @@ h4{
 	position: relative;
 	float: left;
 	width: 30%;
-	height: 150px;
-	background-color: blue;
+	height: 120px;
 	margin-right: 27.5px;
 }
 
