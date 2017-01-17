@@ -59,7 +59,7 @@ h3{
 	font-size: 2em;
 }
 h4{
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 /* Wrapper */
@@ -196,6 +196,15 @@ h4{
 	width: 65.8%;
 	height: 52.5%;
 }
+
+/* Column Right */
+.col-rd-5{
+	position: relative;
+	float: right;
+	width: 80%;
+	height: 100%;	
+}
+
 /* Column div option */
 .col-px-8 h1,h2,h3{
 	text-align: left;
@@ -232,6 +241,85 @@ h4{
 	padding: 20px;
 }
 
+/* Wheel BUtton */
+.wheel-button, .wheel-button:visited{
+	position: fixed;
+	top: 43%;
+	left: 23%;
+	width: 200px;
+	height: 200px;
+	z-index: 50;	
+}
+.wheel-button.ne {
+    border-color: white;
+    background: #1ABC9C;
+    color: #34FFFF;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}   
+.wheel-button.nw {
+    border-color: white;
+    background-color: #E67E22;
+    color: #FFFC44;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.wheel-button img, .wheel img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    display: block;
+}
+.wheel-button.active img{
+      transform: rotate(135deg);
+      -ms-transform: rotate(135deg); /* IE 9 */
+      -webkit-transform: rotate(135deg); /* Safari and Chrome */
+    }
+/* Wheel CHild */
+.wheel li a, .wheel li a:visited{
+    background: rgba(0,0,0,0.65);
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.25), inset 0 1px 1px rgba(255,255,255,0.5);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.25), inset 0 1px 1px rgba(255,255,255,0.5);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.25), inset 0 1px 1px rgba(255,255,255,0.5);
+    color: white;
+    -moz-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.wheel li a:hover{
+    background: rgba(0,0,0,0.8);
+}
+.wheel {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 300px; /* this will determine the diameter of the circle  */
+  height: 300px; /* this will determine the diameter of the circle  */
+  visibility: hidden;
+  position: relative;
+  display: none;
+}
+.wheel li {
+  overflow: hidden;
+  float:left;
+}
+.wheel li a {
+  display: block;
+}
+
 /* Footer */
 .footer{
 	position: fixed;
@@ -240,5 +328,9 @@ h4{
 	width: 96.8%;
 	height: 50px;
 	z-index: 50;
-	background-color: black;
+	background-color: black;	
+}
+
+.footer h3, .footer p{
+	color: white;
 }

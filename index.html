@@ -9,7 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery.wheelmenu.js"></script>
 
 	<script type="text/javascript" src="js/jquery.pagepiling.js"></script>
 	<script type="text/javascript">
@@ -38,7 +39,16 @@
 
 	    });
     </script>
-
+	<script>
+	  $(document).ready(function(){
+			$(".wheel-button").wheelmenu({
+        trigger: "hover",
+        animation: "fade",
+        animationSpeed: "fast"
+      });
+		});
+		
+	</script>
 
     <style>
 
@@ -129,15 +139,43 @@
 								<div class="col-md-1">
 								</div>
 								<div class="col-md-5">
-									<p>Able to learn new things quickly</p>
+									<p>Able to adapt and learn new things quickly</p>
 								</div>
 							</div>
 						</div>
 						<div class="box-sm-3">
-							<p><b>Creative</b></p>
+							<div class="row">
+								<div class="col-md-1">
+									<img src="img/2.png">
+								</div>
+								<div class="col-md-5" style="background-color:white">
+									<center><p><b>Creative</b></p></center>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1">
+								</div>
+								<div class="col-md-5">
+									<p>Produce something new by using talents and imagination</p>
+								</div>
+							</div>
 						</div>
 						<div class="box-sm-3">
-							<p><b>Strong Analytical Skill</b></p>
+							<div class="row">
+								<div class="col-md-1">
+									<img src="img/3.png">
+								</div>
+								<div class="col-md-5" style="background-color:white">
+									<center><p><b>Punctual</b></p></center>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1">
+								</div>
+								<div class="col-md-5">
+									<p>Finish project within established time lines</p>
+								</div>
+							</div>
 						</div>
 					</div>					
 				</div>
@@ -146,8 +184,33 @@
 	    
 	    <div class="section" id="section2">
 			<div class="wrapper">
-				<h1>Skills & Experience</h1>
-
+				<div class="col-md-1">
+					<div class="inner">
+						<h3>Skills & Experience</h3><br>
+						<div class="col-md-5">
+						<h4>
+							I have great passion for JavaScript, CSS3, elegant and creative design with strong attention to detail.
+							I also have interest in other programming language, such as Java, PHP ( with Laravel or CodeIgniter ), and C/C++.
+						</h4>
+						</div>
+					</div>
+				</div>
+				<a href="#wheel" class="wheel-button">
+					<img src="img/wheel.png">
+				</a>
+				<ul id="wheel"  data-angle="E">
+			        <li class="item"><a href="#home">Skills</a></li>
+			        <li class="item"><a href="#home">Experience</a></li>
+			        <li class="item"><a href="#home">C</a></li>
+			        <li class="item"><a href="#home">Education</a></li>
+      			</ul>
+				<div class="col-md-5" style="background-color:grey">
+					<div class="col-rd-5" style="background-color:blue">
+						<div id="skills" class="inner">
+							<h3>Skills</h3>
+						</div>
+					</div>
+				</div>
 			</div>
 	    </div>
 
