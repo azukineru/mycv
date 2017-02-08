@@ -40,14 +40,13 @@
 	    });
     </script>
 	<script>
-	  $(document).ready(function(){
+	  	$(document).ready(function(){
 			$(".wheel-button").wheelmenu({
-        trigger: "hover",
-        animation: "fade",
-        animationSpeed: "fast"
-      });
+		        trigger: "hover",
+		        animation: "fade",
+		        animationSpeed: "fast"
+		    });
 		});
-		
 	</script>
 
     <style>
@@ -196,18 +195,27 @@
 					</div>
 				</div>
 				<a href="#wheel" class="wheel-button">
-					<img src="img/wheel.png">
+					<img src="img/wheel.png" >
 				</a>
 				<ul id="wheel"  data-angle="E">
-			        <li class="item"><a href="#home">Skills</a></li>
-			        <li class="item"><a href="#home">Experience</a></li>
-			        <li class="item"><a href="#home">C</a></li>
-			        <li class="item"><a href="#home">Education</a></li>
+			        <li class="item"><a onclick="toggle_visibility('skills');">Skills</a></li>
+			        <li class="item"><a onclick="toggle_visibility('experience');" >Experience</a></li>
+			        <li class="item"><a onclick="toggle_visibility('project');">Project List</a></li>
+			        <li class="item"><a onclick="toggle_visibility('education');">Education</a></li>
       			</ul>
 				<div class="col-md-5" style="background-color:grey">
 					<div class="col-rd-5" style="background-color:blue">
 						<div id="skills" class="inner">
 							<h3>Skills</h3>
+						</div>
+						<div id="experience" class="inner">
+							<h3>Experience</h3>
+						</div>
+						<div id="project" class="inner">
+							<h3>Project List</h3>
+						</div>
+						<div id="education" class="inner">
+							<h3>Education</h3>
 						</div>
 					</div>
 				</div>
@@ -229,6 +237,8 @@
 	<div class="footer">
 		<h3>Footer</h3>
 	</div>
+
+	<script type="text/javascript" src="js/skills_animation.js"></script>
 
 </body>
 </html>

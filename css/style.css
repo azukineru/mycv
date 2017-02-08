@@ -249,6 +249,7 @@ h4{
 	width: 200px;
 	height: 200px;
 	z-index: 50;	
+
 }
 .wheel-button.ne {
     border-color: white;
@@ -280,7 +281,8 @@ h4{
       transform: rotate(135deg);
       -ms-transform: rotate(135deg); /* IE 9 */
       -webkit-transform: rotate(135deg); /* Safari and Chrome */
-    }
+}
+
 /* Wheel CHild */
 .wheel li a, .wheel li a:visited{
     background: rgba(0,0,0,0.65);
@@ -290,6 +292,7 @@ h4{
     width: 100px;
     height: 50px;
     border: 1px solid black;
+    cursor: pointer;
     box-shadow: 0 1px 2px rgba(0,0,0,0.25), inset 0 1px 1px rgba(255,255,255,0.5);
     -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.25), inset 0 1px 1px rgba(255,255,255,0.5);
     -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.25), inset 0 1px 1px rgba(255,255,255,0.5);
@@ -318,6 +321,56 @@ h4{
 }
 .wheel li a {
   display: block;
+}
+
+/* Skills & Experience submenu */
+#skills{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 94.5%;
+	height: 100%;
+	background-color: white;
+	opacity: 1;
+   	transition: opacity .75s ease-in-out;
+   	-moz-transition: opacity .75s ease-in-out;
+   	-webkit-transition: opacity .75s ease-in-out;
+}
+#experience{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 94.5%;
+	height: 100%;
+	background-color: green;
+	opacity: 0;
+   	transition: opacity .75s ease-in-out;
+   	-moz-transition: opacity .75s ease-in-out;
+   	-webkit-transition: opacity .75s ease-in-out;
+}
+#project{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 94.5%;
+	height: 100%;
+	background-color: red;
+	opacity: 0;
+   	transition: opacity .75s ease-in-out;
+   	-moz-transition: opacity .75s ease-in-out;
+   	-webkit-transition: opacity .75s ease-in-out;
+}
+#education{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 94.5%;
+	height: 100%;
+	background-color: grey;
+	opacity: 0;
+   	transition: opacity .75s ease-in-out;
+   	-moz-transition: opacity .75s ease-in-out;
+   	-webkit-transition: opacity .75s ease-in-out;
 }
 
 /* Footer */
