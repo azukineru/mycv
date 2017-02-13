@@ -1,0 +1,76 @@
+@media only screen and (max-width: 768px) {
+  a {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-width: 480px) {
+  a {
+    font-size: 7px;
+  }
+
+  /* Logo */
+  .logo{
+  	top:10px;
+  }
+
+  /* Navigation bar */
+  #menu{
+  	width: 100%;
+  	right: 0;
+  }
+  #menu li{
+  	width: 25%;
+  }
+  #menu span{
+  	font-size: 10px;
+  }
+
+  /* Wrapper */
+  .wrapper{
+  	width: 100%;
+  	min-height: 50%;
+  	overflow: auto;
+  	left: 0;
+  }
+
+  /* Photo */
+  .photo{
+  	width: 30%;
+  }
+
+  /* Custom div */
+  .col-md-2{
+  	width: 37%;
+  	font-size: 80%;
+  }
+  .col-md-4{
+  	width: 58%;
+  	font-size: 80%;
+  }
+  .col-px-8{
+  	font-size: 70%;
+  }
+  .col-px-10{
+  	width: 100%;
+  	height: auto;
+  }
+  .row-md-6{
+  	width: 100%;
+  	height: auto;
+  }
+
+  /* Small box */
+  .box-sm-3{
+  	width: 100%;
+  }
+
+  /* Footer */
+  .footer{
+  	width: 100%;
+  	position: absolute;
+  	left: 0;
+  	bottom: 0;
+  }
+
+}

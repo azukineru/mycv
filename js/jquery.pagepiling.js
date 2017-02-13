@@ -163,7 +163,7 @@
         });
 
         //init
-        PP.setAllowScrolling(true);
+        PP.setAllowScrolling(false);
 
         //creating the navigation dots
 
