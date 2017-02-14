@@ -1,3 +1,4 @@
+/* Hide and Show div in Skill&Exp section */
 function toggle_visibility(id) {
     var e = document.getElementById(id);
     var skill = document.getElementById("skills");
@@ -31,6 +32,7 @@ function toggle_visibility(id) {
     }
 }
 
+/* Slider in Skill submenu */
 var currentIndex = 0,
 	items = $('.sec2-container div'),
 	itemAmt = items.length;
@@ -67,3 +69,9 @@ $('.sec2-prev').click(function() {
   	cycleItems();
 });
 
+/* Get wrapper div height and set footer position */
+var divHeight = document.getElementById('wrapper').offsetHeight;
+var padding = 160;
+var footerPosition = divHeight + padding;
+//window.alert(footerPosition);
+document.getElementById('footer').style.top = footerPosition+'px';

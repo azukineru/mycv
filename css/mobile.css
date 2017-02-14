@@ -1,17 +1,25 @@
-@media only screen and (max-width: 768px) {
-  a {
-    font-size: 20px;
-  }
-}
-
 @media only screen and (min-device-width : 320px) and (max-width: 480px) {
   a {
     font-size: 7px;
+  }
+  h1,h2,h3{
+    font-size: 200%;
   }
 
   /* Logo */
   .logo{
   	top:10px;
+  }
+
+  /* Icon */
+  .icon{
+    top:0;
+    width: 7px;
+    height: 7px;
+    margin-right: 2px;
+  }
+  .fb-icon, .twitter-icon, .gp-icon, .li-icon, .github-icon{
+    background-size: 7px;
   }
 
   /* Navigation bar */
@@ -23,7 +31,7 @@
   	width: 25%;
   }
   #menu span{
-  	font-size: 10px;
+  	font-size: 15px;
   }
 
   /* Wrapper */
@@ -36,20 +44,23 @@
 
   /* Photo */
   .photo{
-  	width: 30%;
+  	width: 20%;
+    height: 25%;
   }
 
   /* Custom div */
   .col-md-2{
-  	width: 37%;
-  	font-size: 80%;
+  	width: 40%;
+  	font-size: 75%;
   }
   .col-md-4{
-  	width: 58%;
-  	font-size: 80%;
+  	width: 55%;
+  	font-size: 75%;
   }
   .col-px-8{
-  	font-size: 70%;
+    width: 80%;
+    height: 25%;
+  	font-size: 75%;
   }
   .col-px-10{
   	width: 100%;
@@ -68,9 +79,15 @@
   /* Footer */
   .footer{
   	width: 100%;
+    height: 7%;
+    font-size: 50%;
   	position: absolute;
   	left: 0;
-  	bottom: 0;
   }
+}
 
+@media only screen and (max-width: 768px) {
+  a {
+    font-size: 20px;
+  }
 }
