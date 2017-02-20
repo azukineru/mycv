@@ -66,6 +66,10 @@
   	width: 100%;
   	height: auto;
   }
+  .col-rd-5{
+    width: 100%;
+    font-size: 75%;
+  }
   .row-md-6{
   	width: 100%;
   	height: auto;
@@ -74,6 +78,80 @@
   /* Small box */
   .box-sm-3{
   	width: 100%;
+  }
+
+  /* Section 2 Custom */
+  .sec2-auto{
+    width: 100%;
+    height: auto;
+    font-size: 75%;
+  }
+  .sec2{
+    width: 100%;
+    height: 50%;
+    font-size: 75%;
+  }
+  #skills{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  #skills.inner{
+    padding: 0;
+  }
+  #experience{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    opacity: 1;
+    background-color: #c4d3c6;
+  }
+  #experience.inner{
+    padding: 0;
+  }
+  #project{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    background-color: blue;
+  }
+  #project.inner{
+    padding: 0;
+  }
+  #education{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1;
+  }
+  #education.inner{
+    padding: 0;
+  }
+  .sec2-info{
+    width: 70%;
+    height: 70%;
+    font-size: 90%;
+  }
+  .sec2-prev , .sec2-next{
+    font-size: 150%;
+  }
+  .img-skill{
+    width: 30%;
+  }
+
+  /* Wheel */
+  .wheel-button{
+    display: none;
+  }
+  #wheel{
+    display: none;
   }
 
   /* Footer */
