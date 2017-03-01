@@ -52,11 +52,11 @@ abbr,acronym { border: 0;
 body{
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	-webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
--o-user-select: none;
-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 h1{
 	font-size: 6em;
@@ -252,6 +252,9 @@ h4{
 .table-cell{
 	display: table-cell;
 }
+.block{
+	display: block;
+}
 
 /* Main Row */
 .row{
@@ -279,7 +282,6 @@ h4{
 }
 .col-md-3{
 	position: relative;
-	float: left;
 	width: 50%;
 	height: 100%;	
 }
@@ -293,6 +295,11 @@ h4{
 	width: 70%;
 	height: 100%;	
 }
+.col-md-8{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
 
 .col-px-4{
 	position: relative;
@@ -301,7 +308,7 @@ h4{
 }
 .col-px-8{
 	position: relative;
-	width: 54.3%;
+	width: 55%;
 	height: 40%;
 }
 .col-px-10{
@@ -335,15 +342,21 @@ h4{
 }
 .row-md-6{
 	position: relative;
-	width: 35.7%;
+	width: 35%;
 	height: 100%;	
-	padding: 0;
 }
 .row-md-6 , .inner{
 	display: block;
 }
 
 /* Small box */
+.box-sm-1{
+	position: relative;
+	width: 16%;
+	height: 250px;
+	margin-right: 5px;
+	background-color: blue;
+}
 .box-sm-3{
 	position: relative;
 	width: 29.5%;
@@ -536,7 +549,7 @@ td {
     text-align: left;
 }
 
-/* Education Circle and Line */
+/* Section 2 Education Circle and Line */
 .circle{
 	width: 100%;
 	height: 100%;
@@ -575,6 +588,55 @@ td {
 	height: 50%;
 	border-left: 5px solid #ffb70b;
 	border-bottom: 5px solid #ffb70b;
+}
+
+/* Section 3 Blog Post */
+.img-wrapper{
+	width: 100%;
+	height: 50%;
+	overflow: hidden;
+}
+figure img{
+	width: 100%;
+}
+
+/* Section 4 text alignment */
+.sec4align1{
+	background-color: white;
+}
+.sec4align1 img{
+	vertical-align: middle;
+}
+.sec4align2{
+	background-color: white;
+}
+.sec4align2 img{
+	vertical-align: middle;
+	opacity: 0;
+}
+
+/* Section 4 message form */
+#section4 form{
+	width: 100%;
+	height: 50%;
+}
+.input-text{
+	width: 80%;
+  	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding: 0.7em;
+	border: none;
+	background-color: #ffb70b;
+}
+.input-area{
+	width: 90%;
+	overflow-x: hidden;
+  	margin-top: 0.5em;
+  	margin-bottom: 0.5em;
+  	padding: 0.7em;
+  	border: none;
+  	resize: none;
+  	background-color: #ffb70b;
 }
 
 /* Custom Button */

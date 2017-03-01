@@ -182,7 +182,6 @@
 					</div>					
 				</div>
 			</div>
-
 	    </div>
 	    
 	    <div class="section" id="section2">
@@ -350,48 +349,108 @@
 
 	    <div class="section" id="section3">
 	    	<div class="wrapper">
-				<h1>Blog</h1>
+				<div class="inner">
+					<div class="col-md-8" style=" background-color:green;">
+						<h3 style="text-align:center">My Blog</h3>
+						<p style="text-align:center">
+							I will post some article here when I have free time. You can check list of all my post here: 
+							<a href="http://www.faishal-azk.cf/blog">www.faishal-azk.cf/blog</a>
+						</p>
+					</div>
+					<figure class="box-sm-1 block left">
+						<div class="img-wrapper">
+							<img src="img/bg2.jpg">
+						</div>
+					</figure>
+					<figure class="box-sm-1 block left">
+						<div class="img-wrapper">
+							<img src="img/fb-icon.jpg">
+						</div>
+					</figure>
+					<figure class="box-sm-1 block left">
+					</figure>
+					<figure class="box-sm-1 block left">
+					</figure>
+					<figure class="box-sm-1 block left">
+					</figure>
+				</div>
 			</div>
 	    </div>
 
 	    <div class="section" id="section4">
 	    	<div class="wrapper">
-				<div class="col-md-2 left" style="background-color:#b1b1b1">
+				<div class="col-md-2 left sec4-column" style="background-color:#b1b1b1">
 					<div class="inner">
-						<h3>Address</h3>
+						<h3>Address & Phone</h3>
 						<p>
 						Perumahan Wisma Indah Jl.Sadewo G.77<br>
-						Kel. Kepanjenlor, Kec. Kepanjen Kidul, Kota Blitar
+						Kel. Kepanjenlor, Kec. Kepanjen Kidul, Kota Blitar<br>
+						Phone : (+62)82333700666<br>
+						Email : azukineru@gmail.com
 						</p>
-						<div class="col-md-2 left">
-							<p>Facebook</p>
+						<div class="col-md-1 left sec4align1">
+							<img src="img/fb-icon.jpg">
+							<span>Facebook</span>
 						</div>
-						<div class="col-md-4 left" style="background-color:white">
-							<p>https://www.facebook.com/AnimaxVB</p>
+						<div class="col-md-5 left sec4align2">
+							<img src="img/fb-icon.jpg">
+							<a href="https://www.facebook.com/AnimaxVB" target="_blank"><span>https://www.facebook.com/AnimaxVB</span></a>
+						</div><br>
+						<div class="col-md-1 left sec4align1">
+							<img src="img/gp-icon.jpg">
+							<span>Google+</span>
 						</div>
-						<div class="col-md-2 left">
-							<p>Google+</p>
+						<div class="col-md-5 left sec4align2">
+							<img src="img/fb-icon.jpg">
+							<a href="https://plus.google.com/u/0/+FaishalAzka" target="_blank"><span>https://plus.google.com/u/0/+FaishalAzka</span></a>
 						</div>
-						<div class="col-md-4 left" style="background-color:white">
-							<p>https://plus.google.com/u/0/+FaishalAzka</p>
+						<div class="col-md-1 left sec4align1">
+							<img src="img/li-icon.jpg">
+							<span>LinkedIn</span>
 						</div>
-						<div class="col-md-2 left">
-							<p>LinkedIn</p>
+						<div class="col-md-5 left sec4align2">
+							<img src="img/li-icon.jpg">
+							<a href="https://www.linkedin.com/in/faishal-azka/" target="_blank"><span>https://www.linkedin.com/in/faishal-azka/</span></a>
 						</div>
-						<div class="col-md-4 left" style="background-color:white">
-							<p>https://www.linkedin.com/in/faishal-azka/</p>
+						<div class="col-md-1 left sec4align1">
+							<img src="img/github-icon.jpg">
+							<span>Github</span>
 						</div>
-						<div class="col-md-2 left">
-							<p>Github</p>
-						</div>
-						<div class="col-md-4 left" style="background-color:white">
-							<p>https://github.com/azukineru</p>
+						<div class="col-md-5 left sec4align2">
+							<img src="img/github-icon.jpg">
+							<a href="https://github.com/azukineru" target="_blank"><span>https://github.com/azukineru</span></a>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 right" style="background-color:#f3f3f3">
+				<div class="col-md-4 right sec4-column" style="background-color:#f3f3f3">
 					<div class="inner">
-						<h3>Ask a question</h3>
+						<h3>Contact me immediately</h3>
+						<span>Do not hesitate to contact me whenever you want</span>
+						<br>
+						<br>
+						<form>
+							<div class="col-md-2 left">
+								<br>
+								<span>Name</span>
+								<br>
+								<input class="input-text" type="text" name="name" required/>
+								<br>
+								<span>Email</span>
+								<br>
+								<input class="input-text" type="email" name="email" required/>
+								<br>
+								<span>Subject</span>
+								<br>
+								<input class="input-text" type="text"/>
+							</div>
+							<div class="col-md-4 right">								
+								<br>
+								<span>Message</span>
+								<br>
+								<textarea class="input-area" cols="40" rows="5" name="message" required></textarea>
+								<button type="submit" class="btn">SEND</button>
+							</div>							
+						</form>
 					</div>
 				</div>
 			</div>
