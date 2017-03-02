@@ -350,7 +350,7 @@
 	    <div class="section" id="section3">
 	    	<div class="wrapper">
 				<div class="inner">
-					<div class="col-md-8" style=" background-color:green;">
+					<div class="col-md-8">
 						<h3 style="text-align:center">My Blog</h3>
 						<p style="text-align:center">
 							I will post some article here when I have free time. You can check list of all my post here: 
@@ -361,17 +361,56 @@
 						<div class="img-wrapper">
 							<img src="img/bg2.jpg">
 						</div>
-					</figure>
-					<figure class="box-sm-1 block left">
-						<div class="img-wrapper">
-							<img src="img/fb-icon.jpg">
+						<div class="post-meta">
+							<span>By Admin, 1 March 2017</span>
+						</div>
+						<div class="post-title">
+							<span>My Fifth Post on My Blog</span>
 						</div>
 					</figure>
 					<figure class="box-sm-1 block left">
+						<div class="img-wrapper">
+							<img src="img/bg2.jpg">
+						</div>
+						<div class="post-meta">
+							<span>By Admin, 28 February 2017</span>
+						</div>
+						<div class="post-title">
+							<span>My Fourth Post on My Blog</span>
+						</div>
 					</figure>
 					<figure class="box-sm-1 block left">
+						<div class="img-wrapper">
+							<img src="img/bg2.jpg">
+						</div>
+						<div class="post-meta">
+							<span>By Admin, 27 February 2017</span>
+						</div>
+						<div class="post-title">
+							<span>My Third Post on My Blog</span>
+						</div>
 					</figure>
 					<figure class="box-sm-1 block left">
+						<div class="img-wrapper">
+							<img src="img/bg2.jpg">
+						</div>
+						<div class="post-meta">
+							<span>By Admin, 26 February 2017</span>
+						</div>
+						<div class="post-title">
+							<span>My Second Post on My Blog</span>
+						</div>
+					</figure>
+					<figure class="box-sm-1 block left">
+						<div class="img-wrapper">
+							<img src="img/bg2.jpg">
+						</div>
+						<div class="post-meta">
+							<span>By Admin, 25 February 2017</span>
+						</div>
+						<div class="post-title">
+							<span>My First Post on My Blog</span>
+						</div>
 					</figure>
 				</div>
 			</div>
