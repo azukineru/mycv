@@ -4,15 +4,18 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
-	<title>Hikarin Moe</title>
+	<meta name="author" content="Faishal Azka Jellyanto | Front-End Web Developer [http://www.faishal-azk.cf]" />
+	<meta name="keywords" lang="en" content="Faishal Azka Jellyanto,Front-End Web Developer,Web Designer,CV" />	
+	<meta name="description" content="My Curriculum Vitae">
+	<title>Faishal Azka J | CV</title>
 	
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400,700" />
+	<link rel="stylesheet" type="text/css" href="css/googleapis-font.css" />
 	<link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link rel="stylesheet" type="text/css" href="css/mobile.css" />
 	<link rel="stylesheet" type="text/css" href="css/hover.css" />
 
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.wheelmenu.js"></script>
 	<script type="text/javascript" src="js/jquery.pagepiling.js"></script>
 
@@ -77,7 +80,13 @@
 				</div>
 				<div class="col-px-8 left" style="background-color: #fed167;">
 					<h2>Faishal Azka J.</h2>
-					<h3>Front-End Developer</h3>
+					<h1 class="cd-headline clip is-full-width">						
+						<span class="cd-words-wrapper">
+							<b class="is-visible">Front-End Web Developer</b>
+							<b>Web Designer</b>
+							<b>Game Developer</b>
+						</span>
+					</h1>
 				</div>
 				<div class="row-md-6 right" style="background-color: #f3f3f3;">
 					<div class="inner">
@@ -516,6 +525,7 @@
 
 
 	<script type="text/javascript" src="js/skills_animation.js"></script>
+	<script type="text/javascript" src="js/headline_animation.js"></script>
 
 </body>
 </html>

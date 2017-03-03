@@ -117,7 +117,7 @@ h4{
 	background:#42af4a;
 }
 .even{
-	background: #05954c;
+	background:#05954c;
 }
 #menu span{
 	width: 100%;
@@ -363,6 +363,57 @@ h4{
 /* Padding */
 .inner{
 	padding: 20px;
+}
+
+/* Headline Text */
+.cd-headline {
+  font-size: 2rem;
+  line-height: 0.7;
+}
+.cd-words-wrapper {
+  	display: inline-block;
+  	position: relative;
+  	text-align: left;
+}
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+.no-js .cd-words-wrapper b {
+  opacity: 0;
+}
+.no-js .cd-words-wrapper b.is-visible {
+  opacity: 1;
+}
+.cd-headline.clip span {
+  display: inline-block;
+  padding: .2em 0;
+}
+.cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+.cd-headline.clip .cd-words-wrapper::after {
+  /* line */
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #05954c;
+}
+.cd-headline.clip b {
+  opacity: 0;
+}
+.cd-headline.clip b.is-visible {
+  opacity: 1;
 }
 
 /* Wheel BUtton */

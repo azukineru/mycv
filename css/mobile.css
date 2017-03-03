@@ -42,6 +42,12 @@
   	left: 0;
   }
 
+  /* Headline */
+  .cd-headline {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
   /* Photo */
   .photo{
   	width: 20%;
